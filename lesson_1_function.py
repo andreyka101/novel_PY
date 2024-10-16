@@ -33,16 +33,16 @@ def fun_1():
 
 
 # изменение глобальной переменной
-# num_3_global = 5
-# def fun_4():
-#     print("start fun 4")
-#     # num_3_global = 0
-#     print(num_3_global)
-#     return num_3_global + 9
+num_3_global = 5
+def fun_4():
+    print("start fun 4")
+    num_3_global = 0
+    print(num_3_global)
+    return num_3_global + 9
 
-# print("num_3_global =", num_3_global)
-# print(fun_4())
-# print("num_3_global =", num_3_global)
+print("num_3_global =", num_3_global)
+print(fun_4())
+print("num_3_global =", num_3_global)
     
 
 
@@ -127,17 +127,17 @@ def fun_1():
 
 
 # у каждой функции переменная имеет свой жизненный цикл 
-num_4_global = 1
-def fun_13():
-    num_4_global = 2
-    def fun_local():
-        num_4_global = 3
-        print("fun_local() =" , num_4_global)
-    fun_local()
-    print("fun_13() =" , num_4_global)
+# num_4_global = 1
+# def fun_13():
+#     num_4_global = 2
+#     def fun_local():
+#         num_4_global = 3
+#         print("fun_local() =" , num_4_global)
+#     fun_local()
+#     print("fun_13() =" , num_4_global)
 
-fun_13()
-print("num_4_global =" , num_4_global)
+# fun_13()
+# print("num_4_global =" , num_4_global)
 
 
 
@@ -167,4 +167,13 @@ print("num_4_global =" , num_4_global)
 # Задание 6. 
 # Написать функцию, которая возвращает истину, если передаваемое значение положительное и ложь, 
 # если отрицательное.
+
+
+# обычное деление 
+print("10 / 3 =" , 10 / 3)
+# деление без остатка
+print("10 // 3 =" , 10 // 3)
+# остаток от деление
+print("10 % 3 =" , 10 % 3)
+
 
